@@ -1,1 +1,1 @@
-# swarm
+Swarm is a Bullet-hell boss rush game where each death will directly contribute to the defeat of the boss.
