@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log(GameLogic.Instance.myGlobalVar);
         rb = GetComponent<Rigidbody>();
         //Player Spawn Point
-        transform.position = new Vector3(5, 0.572f, -0.658f);
+        transform.position = new Vector3(transform.position.x, 0.572f, transform.position.z);
         startPosition = transform.position;
         Physics.IgnoreCollision(ghost.GetComponent<Collider>(), GetComponent<Collider>());
         attackCooldown = 0;
